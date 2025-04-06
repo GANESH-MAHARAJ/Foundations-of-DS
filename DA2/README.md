@@ -23,7 +23,6 @@ The chatbot runs on a **React + Flask** stack, delivering responses through a cl
 - **Frontend**: React + Vite
   
 - **Backend**: Flask (Python)  
--
 
 - **NLP Engines**: RASA, LangChain (with OpenAI GPT) 
 
@@ -66,12 +65,15 @@ Columns include:
 1. **Clone the repo**
 
 git clone https://github.com/your-username/movie-chatbot-rasa-langchain.git
+
 cd movie-chatbot-rasa-langchain
 
 2. Run RASA server
 
 rasa train (if models dir not downloaded)
+
 rasa run --enable-api --cors "*" --debug
+
 rasa run actions (in another terminal)
 
 3. Run LangChain server
@@ -83,8 +85,8 @@ python langchain_server.py
 python flask_server.py
 
 5. Run Frontend
-
 npm install
+
 npm run dev
 
 🙋‍♂️ Author
