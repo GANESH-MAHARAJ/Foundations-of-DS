@@ -64,7 +64,7 @@ Columns include:
 
 1. **Clone the repo**
 
-git clone https://github.com/your-username/movie-chatbot-rasa-langchain.git
+git clone this repo
 
 cd movie-chatbot-rasa-langchain
 
@@ -85,6 +85,7 @@ python langchain_server.py
 python flask_server.py
 
 5. Run Frontend
+
 npm install
 
 npm run dev
