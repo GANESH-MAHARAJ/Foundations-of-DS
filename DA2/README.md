@@ -20,21 +20,26 @@ The chatbot runs on a **React + Flask** stack, delivering responses through a cl
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React + Vite  
+- **Frontend**: React + Vite
+  
 - **Backend**: Flask (Python)  
-- **NLP Engines**: RASA, LangChain (with OpenAI GPT)  
-- **Dataset**: Custom CSV of movies and TV shows  
+-
+
+- **NLP Engines**: RASA, LangChain (with OpenAI GPT) 
+
+-   **Dataset**: Custom CSV of movies and TV shows
+
 - **Environments**:
   - `rasa_env` for all RASA-related dependencies
   - `langchain_env` for LangChain + GPT integration
 
 ## 🚀 Project Structure
 
-📁 backend/ ├── flask_server.py # Main Flask app └── langchain_server.py # LangChain GPT handler
+📁 backend/ ├── flask_server.py # Main Flask app └── langchain_server.py # LangChain GPT handler 
 
-📁 frontend/ ├── Chatbot.jsx # Chat UI component ├── App.jsx # Root component └── index.css # Styling
+📁 frontend/ ├── Chatbot.jsx # Chat UI component ├── App.jsx # Root component └── index.css # Styling 
 
-📁 rasa_project/ ├── domain.yml ├── data/nlu.yml ├── data/rules.yml ├── data/stories.yml └── actions.py
+📁 rasa_project/ ├── domain.yml ├── data/nlu.yml ├── data/rules.yml ├── data/stories.yml └── actions.py 
 
 
 ## 📽️ Demo Video
