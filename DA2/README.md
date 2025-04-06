@@ -90,13 +90,20 @@ npm install
 
 npm run dev
 
+<hr>
+
 🙋‍♂️ Author
+
 Ganeshmaharaj K
+
 Student – B.Tech CSE (DS), VIT Vellore
+
 Semester: Winter 2024–25
+
 Email: ganeshmaharaj.kamatham@email.com 
 
 📃 License
+
 This project is for academic purposes only and is not licensed for commercial use.
 
 
