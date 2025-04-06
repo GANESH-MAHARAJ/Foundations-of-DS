@@ -68,7 +68,7 @@ git clone this repo
 
 cd movie-chatbot-rasa-langchain
 
-2. Run RASA server
+2. **Run RASA server**
 
 rasa train (if models dir not downloaded)
 
@@ -76,15 +76,15 @@ rasa run --enable-api --cors "*" --debug
 
 rasa run actions (in another terminal)
 
-3. Run LangChain server
+3. **Run LangChain server**
 
 python langchain_server.py
 
-4. Run Flask server (proxy backend)
+4. **Run Flask server (proxy backend)**
 
 python flask_server.py
 
-5. Run Frontend
+5. **Run Frontend**
 
 npm install
 
