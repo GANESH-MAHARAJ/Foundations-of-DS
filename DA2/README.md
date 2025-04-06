@@ -62,13 +62,13 @@ Columns include:
 
 > Make sure to use two virtual environments: one for `RASA` and one for `LangChain`.
 
-1. **Clone the repo**
+1.**Clone the repo**
 
 git clone this repo
 
 cd movie-chatbot-rasa-langchain
 
-2. Run RASA server
+2.Run RASA server
 
 rasa train (if models dir not downloaded)
 
@@ -76,7 +76,7 @@ rasa run --enable-api --cors "*" --debug
 
 rasa run actions (in another terminal)
 
-3. Run LangChain server
+3.Run LangChain server
 
 python langchain_server.py
 
@@ -84,7 +84,7 @@ python langchain_server.py
 
 python flask_server.py
 
-5. Run Frontend
+5.Run Frontend
 
 npm install
 
