@@ -64,7 +64,7 @@ Columns include:
 
 1. **Clone the repo**
 
-git clone this repo
+git clone this repo and (npm i)
 
 cd movie-chatbot-rasa-langchain
 
