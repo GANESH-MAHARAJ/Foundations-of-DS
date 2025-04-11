@@ -70,7 +70,7 @@ cd movie-chatbot-rasa-langchain
 
 2. **Run RASA server**
 
-rasa train (if models dir not downloaded)
+rasa train 
 
 rasa run --enable-api --cors "*" --debug
 
