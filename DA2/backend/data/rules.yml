@@ -1,0 +1,62 @@
+version: "3.1"
+
+stories:
+- story: Greet the user
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: Say goodbye to user
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: Thank the bot
+  steps:
+  - intent: thank_you
+  - action: utter_thank_you
+
+- story: Ask for movie details
+  steps:
+  - intent: ask_movie_details
+  - action: action_get_movie_details
+
+- story: Ask for top-rated movies
+  steps:
+  - intent: ask_top_movies
+  - action: action_get_top_movies
+
+- story: Ask movies by year
+  steps:
+  - intent: ask_movie_by_year
+  - action: action_get_movies_by_year
+
+- story: Ask about movie runtime
+  steps:
+  - intent: ask_movie_runtime
+  - action: action_get_movie_runtime
+
+- story: Ask about movie votes
+  steps:
+  - intent: ask_movie_votes
+  - action: action_get_movie_votes
+
+- story: Ask about movie metascore
+  steps:
+  - intent: ask_movie_metascore
+  - action: action_get_movie_metascore
+
+- story: Ask about movie MPAA rating
+  steps:
+  - intent: ask_movie_mpaa_rating
+  - action: action_get_movies_by_mpaa_rating
+
+- story: Ask for movie description
+  steps:
+  - intent: ask_movie_description
+  - action: action_get_movie_description
+
+- story: Ask for short movies
+  steps:
+    - intent: ask_movies_by_duration
+    - action: action_get_movie_runtime

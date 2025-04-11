@@ -1,0 +1,122 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+    - Hi there
+    - Good morning
+    - What's up?
+    - Yo!
+    - Hey bot!
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later
+    - Have a nice day
+    - Catch you later
+    - I'm leaving now
+    - See ya!
+
+
+- intent: ask_movie_details
+  examples: |
+    - Tell me about [Inception](movie_name)
+    - Give me details of [The Godfather](movie_name)
+    - What is the summary of [Titanic](movie_name)?
+    - Tell me more about [The Lord of the Rings](movie_name)
+    - Tell me about the movie [The Shawshank Redemption](movie_name)
+    - Give me details about [The Godfather](movie_name)
+    - What is the plot of [The Dark Knight](movie_name)?
+    - Who directed [12 Angry Men](movie_name)?
+    - When was [The Shawshank Redemption](movie_name) released?
+    - What is the IMDb rating of [The Godfather](movie_name)?
+    - Give me a short description of [The Dark Knight](movie_name).
+    - What is the MPAA rating for [12 Angry Men](movie_name)?
+
+- intent: ask_top_movies
+  examples: |
+    - What are the top-rated movies?
+    - Show me movies with the highest IMDb rating
+    - Which movies have a rating above 9.0?
+    - List the best movies according to IMDb
+    - Suggest some all-time great films
+
+- intent: ask_movie_by_year
+  examples: |
+    - What are the best movies from [1994](year)?
+    - Show me movies released in [1972](year).
+    - Which are the top movies from [2008](year)?
+    - Tell me popular movies from [1957](year).
+    - Any good films from the [90s](year)?
+
+- intent: ask_movie_runtime
+  examples: |
+    - How long is [The Shawshank Redemption](movie_name)?
+    - What is the runtime of [The Godfather](movie_name)?
+    - Tell me the duration of [The Dark Knight](movie_name).
+    - How many minutes is [12 Angry Men](movie_name)?
+
+- intent: ask_movie_votes
+  examples: |
+    - How many people rated [The Shawshank Redemption](movie_name)?
+    - What is the number of votes for [The Godfather](movie_name)?
+    - How popular is [The Dark Knight](movie_name)?
+    - How many votes does [12 Angry Men](movie_name) have?
+
+- intent: ask_movie_metascore
+  examples: |
+    - What is the Metascore of [The Shawshank Redemption](movie_name)?
+    - How did critics rate [The Godfather](movie_name)?
+    - Give me the Metascore for [The Dark Knight](movie_name).
+    - What is the critical rating for [12 Angry Men](movie_name)?
+
+- intent: ask_movie_mpaa_rating
+  examples: |
+    - What is the MPAA rating for [The Shawshank Redemption](movie_name)?
+    - Is [The Godfather](movie_name) appropriate for kids?
+    - What age rating does [The Dark Knight](movie_name) have?
+    - Can children watch [12 Angry Men](movie_name)?
+
+- intent: ask_movie_description
+  examples: |
+    - What is the story of [The Shawshank Redemption](movie_name)?
+    - Give me a short summary of [The Godfather](movie_name).
+    - Describe the plot of [The Dark Knight](movie_name).
+    - What is [12 Angry Men](movie_name) about?
+
+- intent: thank_you
+  examples: |
+    - Thanks!
+    - Thank you so much
+    - Appreciate it!
+    - You're the best!
+    - Thanks for the help
+    - Cheers!
+
+
+- intent: ask_movie_by_year
+  examples: |
+    - Show me movies from [1994](year)
+    - Which movies were released in [2008](year)?
+    - List top movies from [1972](year)
+    - Any good movies from [1957](year)?
+
+- intent: ask_movies_by_duration
+  examples: |
+    - Show me movies under [120](duration) minutes
+    - List movies shorter than [90](duration) minutes
+    - I want movies that are less than [150](duration) minutes long
+    - What are some movies under [200](duration) mins?
+
+
+intents:
+  - get_movie_details
+  - get_movies_by_year
+  - recommend_top_movie
+  - get_movies_by_mpaa_rating
+  - get_short_movies

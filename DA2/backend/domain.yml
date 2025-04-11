@@ -1,0 +1,55 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - thank_you
+  - ask_movie_details
+  - ask_top_movies
+  - ask_movie_by_year
+  - ask_movie_runtime
+  - ask_movie_votes
+  - ask_movie_metascore
+  - ask_movie_mpaa_rating
+  - ask_movie_description
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with movies today? 🎬"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day! 👋"
+  utter_thank_you:
+    - text: "You're welcome! 😊"
+  utter_ask_movie_details:
+    - text: "Fetching movie details... ⏳"
+  utter_ask_top_movies:
+    - text: "Fetching top-rated movies... ⏳"
+  utter_ask_movie_by_year:
+    - text: "Fetching movies from the specified year... ⏳"
+  utter_ask_movie_runtime:
+    - text: "Fetching movies based on runtime... ⏳"
+  utter_ask_movie_votes:
+    - text: "Fetching movie votes... ⏳"
+  utter_ask_movie_metascore:
+    - text: "Fetching movie metascore... ⏳"
+  utter_ask_movie_mpaa_rating:
+    - text: "Fetching movies by MPAA rating... ⏳"
+  utter_ask_movie_description:
+    - text: "Fetching movie description... ⏳"
+
+actions:
+  - action_get_movie_details
+  - action_get_top_movies
+  - action_get_movies_by_year
+  - action_get_movie_runtime
+  - action_get_movie_votes
+  - action_get_movie_metascore
+  - action_get_movies_by_mpaa_rating
+  - action_get_movie_description
+
+entities:
+  - movie_name
+  - year
+  - runtime
+  - mpaa_rating
+  - duration
